@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xian_contracting_linter"
+version = "0.2.13"
+authors = [
+	{ name = "Xian Team" }
+]
+description = "A linting tool for Xian smart contracts"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+	"pyflakes==3.2.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/your-repo/xian-contracting-linter"
+
+[tool.setuptools]
+packages = ["xian_contracting_linter"]
+package-dir = {"" = "."}
