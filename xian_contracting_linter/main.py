@@ -38,6 +38,7 @@ class Settings:
                 "decimal",
                 "Any",
                 "LogEvent",
+                "chain_id"
             }
         )
 

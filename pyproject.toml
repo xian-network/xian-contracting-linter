@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xian_contracting_linter"
-version = "0.2.13"
+version = "0.2.14"
 authors = [
 	{ name = "Xian Team" }
 ]
